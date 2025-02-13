@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Wild Git Collaboration Practice"
 format: 
@@ -64,4 +65,3 @@ diamond_bar <- ggplot(diamonds, aes(x=cut, y= price, color=cut))+
 
 
 ```
-
