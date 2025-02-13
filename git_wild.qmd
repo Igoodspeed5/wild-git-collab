@@ -42,7 +42,8 @@ diamond_bar <- ggplot(diamonds, aes(x=cut, y= price, color=cut))+
 ### ggplot2 package) and create a subset based on filtering, e.g., 
 ### size greater than 1 carat or cut is "Ideal"
 
-
+subset_df <- df |>
+  filter(cut == "Ideal" | carat >1)
 
 ```
 
